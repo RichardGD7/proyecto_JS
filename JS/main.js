@@ -1,5 +1,5 @@
 let postEntries = [];
-let post_public = "https://desafiojs-5d832-default-rtdb.firebaseio.com/usersList/-NiphWXA0DuPtYPlUyod";
+let post_public = "https://desafiojs-5d832-default-rtdb.firebaseio.com/userList";
 let usersWrapper = document.getElementById("users-wrapper");
 const getAllEntries = async () => {
     let response = await fetch(`${post_public}/.json`);

@@ -1,4 +1,4 @@
-const BLOG_ENDPOINT = "https://desafiojs-5d832-default-rtdb.firebaseio.com/usersList/-NiphWXA0DuPtYPlUyod";
+const BLOG_ENDPOINT = "https://desafiojs-5d832-default-rtdb.firebaseio.com/userList";
 //console.log("blog view")
 let queryString = location.search;
 
